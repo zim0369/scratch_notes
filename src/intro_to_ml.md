@@ -96,6 +96,8 @@ Supervised learning is the machine learning task of learning a function that map
 | M      | 34  | healthy |
 | M      | 21  | healthy |
 
+[READ MORE](https://www.javatpoint.com/machine-learning-models)
+
 #### Unsupervised
 
 Unsupervised learning is a type of machine learning algorithm used to draw inferences from datasets consisting of input data without labeled responses. In unsupervised learning algorithms, classification or categorization is not included in the observations. Example: Consider the following data regarding patients entering a clinic. The data consists of the gender and age of the patients.
@@ -110,6 +112,8 @@ Unsupervised learning is a type of machine learning algorithm used to draw infer
 | M      | 21  |
 
 As a kind of learning, it resembles the methods humans use to figure out that certain objects or events are from the same class, such as by observing the degree of similarity between objects. Some recommendation systems that you find on the web in the form of marketing automation are based on this type of learning.
+
+[READ MORE](https://www.javatpoint.com/machine-learning-models)
 
 ##### Supervised vs. Unsupervised Machine Learning
 
@@ -161,24 +165,87 @@ The basic disadvantage of supervised learning is that it requires hand-labeling 
 
 *   The agent learns that what actions lead to positive feedback or rewards and what actions lead to negative feedback penalty. As a positive reward, the agent gets a positive point, and as a penalty, it gets a negative point.
 
-[More Details](https://www.javatpoint.com/reinforcement-learning)
+[READ MORE](https://www.javatpoint.com/machine-learning-models)
+
+[MORE DETAILS](https://www.javatpoint.com/reinforcement-learning)
 
 ### Models of Machine learning
 
+A machine learning model is defined as a mathematical representation of the output of the training process. Machine learning is the study of different algorithms that can improve automatically through experience & old data and build the model. A machine learning model is similar to computer software designed to recognize patterns or behaviors based on previous experience or data. The learning algorithm discovers patterns within the training data, and it outputs an ML model which captures these patterns and makes predictions on new data.
+
+Machine Learning models can be understood as a program that has been trained to find patterns within new data and make predictions. These models are represented as a mathematical function that takes requests in the form of input data, makes predictions on input data, and then provides an output in response. First, these models are trained over a set of data, and then they are provided an algorithm to reason over data, extract the pattern from feed data and learn from those data. Once these models get trained, they can be used to predict the unseen dataset.
+
+There are various types of machine learning models available based on different business goals and data sets.
+
 #### Geometric model
+
+[READ HERE](https://medium.com/mlearning-ai/logical-vs-geometrical-vs-probabilistic-models-in-machine-learning-ae3a33e6be1e)
 
 #### Probabilistic Models
 
+[READ HERE](https://medium.com/mlearning-ai/logical-vs-geometrical-vs-probabilistic-models-in-machine-learning-ae3a33e6be1e)
+
 #### Logical Models
+
+[READ HERE](https://medium.com/mlearning-ai/logical-vs-geometrical-vs-probabilistic-models-in-machine-learning-ae3a33e6be1e)
 
 #### Grouping and grading models
 
+<!--  TODO -->
+
+*   **INCOMPLETE**
+
 #### Parametric and non-parametric models
+
+*   Algorithms that simplify the function to a known form are called parametric machine learning algorithms. A learning model that summarizes data with a set of parameters of fixed size (independent of the number of training examples) is called a **parametric model**.
+
+*   Algorithms that do not make strong assumptions about the form of the mapping function are called non-parametric machine learning algorithms. By not making assumptions, they are free to learn any functional form from the training data.
+
+The following is the list of differences between parametric and non-parametric machine learning models.
+
+*   In case of parametric models, the assumption related to the functional form is made and linear model is considered. In case of non-parametric models, the assumption about the functional form is not made.
+
+*   Parametric models are much easier to fit than non-parametric models because parametric machine learning models only require the estimation of a set of parameters as the model is identified prior as linear model. In case of non-parametric model, one needs to estimate some arbitrary function which is a much difficult task.
+
+*   Parametric models often do not match the unknown function we are trying to estimate. The model performance is comparatively lower than the non-parametric models. The estimates done by the parametric models will be farther from being true.
+
+*   Parametric models are interpretable unlike the non-parametric models. This essentially means that one can go for parametric models when the goal is to find inference. Instead, one can choose to go for non-parametric models when the goal is to make prediction with higher accuracy and interpretability or inference is not the key ask.
+
+[READ MORE](https://machinelearningmastery.com/parametric-and-nonparametric-machine-learning-algorithms/)
 
 ### Important Elements of Machine Learning
 
+The 6 elements of the the Machine Learning are:
+
+1.  Data
+2.  Task
+3.  Model
+4.  Loss Function
+5.  Learning Algorithm
+6.  Evaluation
+
+[READ HERE](https://dev.to/jamesshah/six-elements-of-machine-learning-a-beginner-s-guide-4i35)
+
+But syllabus classifies them as:
+
+*   Data formats
+*   Learnability
+*   Statistical learning approaches
+
 #### Data formats
+
+[READ HERE](https://iq.opengenus.org/types-of-data-formats-in-machine-learning/)
 
 #### Learnability
 
+What makes a particular function, or a group of functions “learnable”? On the surface, this seems like an easy question. A simple answer would be to say: well, a function is learnable if there is some training algorithm that can be trained on the training set and achieve low error on the test set. After all, that is how the overwhelming majority of machine learning algorithms work.
+
+Is that definition good enough? There’s one main problem with it, specifically with the training set. What training set are we talking about? Imagine a very unlucky training set that consists of one example duplicated many times. Any machine learning algorithm that sees that training set will learn that particular example very well, but it won’t learn anything else. As a consequence, the test set error (or, in more formal terms, the generalization error) will be high. We see that the performance of any algorithm depends on the quality of the sample it is trained on.
+
+[READ HERE](https://towardsdatascience.com/what-it-means-for-something-to-be-learnable-pac-learnability-c84de9c061ad)
+
 #### Statistical learning approaches
+
+Statistical learning theory is a framework for machine learning drawing from the fields of statistics and functional analysis. Statistical learning theory deals with the statistical inference problem of finding a predictive function based on data.
+
+[READ HERE](https://en.wikipedia.org/wiki/Statistical_learning_theory)
